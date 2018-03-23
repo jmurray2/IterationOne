@@ -1,0 +1,12 @@
+{
+  "name": "DroNax",
+  "app_id": "bef13a98",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  },
+  "proxies": [{
+    "path": "/api",
+    "proxyUrl": "http://10.141.166.89:8000/gui"
+  }]
+}
